@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+//Sets up a listener for the button. Takes the zip in the edittext and sends it as an extra on the intent that opens WiseWeather.
 		Button getForcast = (Button) findViewById(R.id.forcastButton);
 		getForcast.setOnClickListener(new View.OnClickListener() {
 			@Override
